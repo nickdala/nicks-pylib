@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nickspylib"
-version = "0.1.0"
+version = "0.1.1"
 description = "Example of a Python Library"
 authors = ["Nick Dalalelis <ndalalelis@yahoo.com>"]
 license = "MIT"
@@ -16,7 +16,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "3.10.14"
+python = "~=3.10.14"
 numpy = "~=1.21.4"
 
 [tool.poetry.group.dev.dependencies]
