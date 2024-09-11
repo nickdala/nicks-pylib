@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nickspylib"
-version = "0.1.2"
+version = "0.1.4"
 description = "Example of a Python Library"
 authors = ["Nick Dalalelis <ndalalelis@yahoo.com>"]
 license = "MIT"
@@ -13,6 +13,10 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+
+packages = [
+    { include = "nickspylib" },
 ]
 
 [tool.poetry.dependencies]
